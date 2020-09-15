@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+expect(page).to have_link(@student.to_s, href: student_path(@student
+
+activate_student_path(@student)
